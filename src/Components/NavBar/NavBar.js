@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { Button, Form, FormControl, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";

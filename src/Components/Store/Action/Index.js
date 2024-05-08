@@ -1,4 +1,4 @@
-import { endpointSearch } from "../../Configuration/config";
+import { endpointSearch } from "../../Configuration/Config";
 import axios from "axios";
 import { SEARCH_REQUEST, SEARCH_SUCCESS, SEARCH_FAILURE } from "./ActionTypes";
 

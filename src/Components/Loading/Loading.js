@@ -1,4 +1,3 @@
-import react from "react";
 import { SpinnerContainer, LoadingCircle } from "./Index";
 
 function Loading() {

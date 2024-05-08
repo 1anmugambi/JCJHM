@@ -1,10 +1,10 @@
-import react, { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from "uuid";
 import Loading from "../Loading/Loading";
 import NewsItem from "../NewsItem/NewsItem";
 import NullImage from "../Images/nullImage.png";
 import { useDispatch, useSelector } from "react-redux";
-import { searchArticle } from "../../store/action";
+import { searchArticle } from "../Store/Reducer/SearchArticle";
 import { useParams } from "react-router-dom";
 import { Col, Row } from "react-bootstrap";
 import { header, noFound, searching } from "../Configuration/Config";

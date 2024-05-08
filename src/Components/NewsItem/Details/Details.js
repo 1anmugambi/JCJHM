@@ -1,4 +1,3 @@
-import react from "react";
 import PropTypes from "prop-types";
 import { summary, newsChannel, lastUpdate } from "../../Configuration/Config";
 import "./Details.css";
