@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 import NavBar from "./Components/NavBar/NavBar";
-import News from "./components/News/News";
+import News from "./Components/News/News";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { router } from "./Components/Configuration/Config";
+import { router } from "";
 import Search from "./Components/Search/SearchBar";
 
 function App() {
