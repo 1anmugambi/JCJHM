@@ -1,0 +1,28 @@
+card {
+    border: none; /* Remove default card border */
+  }
+  
+  .card-img {
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top of the card image */
+  }
+  
+  .card-description {
+    font-size: 16px;
+    margin-bottom: 1rem; /* Add margin below the card description */
+  }
+  
+  .card-btn {
+    background-color: #007bff; /* Bootstrap primary color for the button background */
+    border: none; /* Remove default button border */
+    color: #fff; /* White text color */
+    padding: 0.5rem 1rem; /* Add padding to the button */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  .arrow-icon {
+    margin-left: 0.5rem; /* Add space between button text and arrow icon */
+  }
